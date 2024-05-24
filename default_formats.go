@@ -319,6 +319,7 @@ const (
 var FullFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSFull,
 	LocaleEnGB: DefaultFormatEnGBFull,
+	LocaleIdID: DefaultFormatEnGBFull,
 	LocaleDaDK: DefaultFormatDaDKFull,
 	LocaleNlBE: DefaultFormatNlBEFull,
 	LocaleNlNL: DefaultFormatNlNLFull,
@@ -369,6 +370,7 @@ var FullFormatsByLocale = map[Locale]string{
 var LongFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSLong,
 	LocaleEnGB: DefaultFormatEnGBLong,
+	LocaleIdID: DefaultFormatEnGBLong,
 	LocaleDaDK: DefaultFormatDaDKLong,
 	LocaleNlBE: DefaultFormatNlBELong,
 	LocaleNlNL: DefaultFormatNlNLLong,
@@ -419,6 +421,7 @@ var LongFormatsByLocale = map[Locale]string{
 var MediumFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSMedium,
 	LocaleEnGB: DefaultFormatEnGBMedium,
+	LocaleIdID: DefaultFormatEnGBMedium,
 	LocaleDaDK: DefaultFormatDaDKMedium,
 	LocaleNlBE: DefaultFormatNlBEMedium,
 	LocaleNlNL: DefaultFormatNlNLMedium,
@@ -469,6 +472,7 @@ var MediumFormatsByLocale = map[Locale]string{
 var ShortFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSShort,
 	LocaleEnGB: DefaultFormatEnGBShort,
+	LocaleIdID: DefaultFormatEnGBShort,
 	LocaleDaDK: DefaultFormatDaDKShort,
 	LocaleNlBE: DefaultFormatNlBEShort,
 	LocaleNlNL: DefaultFormatNlNLShort,
@@ -519,6 +523,7 @@ var ShortFormatsByLocale = map[Locale]string{
 var DateTimeFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSDateTime,
 	LocaleEnGB: DefaultFormatEnGBDateTime,
+	LocaleIdID: DefaultFormatEnGBDateTime,
 	LocaleDaDK: DefaultFormatDaDKDateTime,
 	LocaleNlBE: DefaultFormatNlBEDateTime,
 	LocaleNlNL: DefaultFormatNlNLDateTime,
@@ -569,6 +574,7 @@ var DateTimeFormatsByLocale = map[Locale]string{
 var TimeFormatsByLocale = map[Locale]string{
 	LocaleEnUS: DefaultFormatEnUSTime,
 	LocaleEnGB: DefaultFormatEnGBTime,
+	LocaleIdID: DefaultFormatEnGBTime,
 	LocaleDaDK: DefaultFormatDaDKTime,
 	LocaleNlBE: DefaultFormatNlBETime,
 	LocaleNlNL: DefaultFormatNlNLTime,

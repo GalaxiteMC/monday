@@ -61,6 +61,7 @@ func ListLocales() []Locale {
 	return []Locale{
 		LocaleEnUS,
 		LocaleEnGB,
+		LocaleIdID,
 		LocaleDaDK,
 		LocaleNlBE,
 		LocaleNlNL,

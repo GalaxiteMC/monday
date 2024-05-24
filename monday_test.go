@@ -32,6 +32,15 @@ var formatTests = []FormatTest{
 	{LocaleEnGB, time.Date(0, 5, 1, 0, 0, 0, 0, time.UTC), "January", "May"},
 	{LocaleEnGB, time.Date(0, 5, 13, 0, 0, 0, 0, time.UTC), "2 January", "13 May"},
 
+	{LocaleIdID, time.Date(2013, 9, 3, 0, 0, 0, 0, time.UTC), "Mon Jan 2 2006", "Tue Sep 3 2013"},
+	{LocaleIdID, time.Date(2013, 9, 4, 0, 0, 0, 0, time.UTC), "Monday Jan 2 2006", "Wednesday Sep 4 2013"},
+	{LocaleIdID, time.Date(2013, 10, 3, 0, 0, 0, 0, time.UTC), "Monday January 02 2006", "Thursday October 03 2013"},
+	{LocaleIdID, time.Date(2013, 11, 3, 0, 0, 0, 0, time.UTC), "Monday. 2 January 2006", "Sunday. 3 November 2013"},
+	{LocaleIdID, time.Date(2013, 5, 13, 0, 0, 0, 0, time.UTC), "2006. 2 January. Monday", "2013. 13 May. Monday"},
+	{LocaleIdID, time.Date(2013, 5, 13, 0, 0, 0, 0, time.UTC), "2 Jan 2006", "13 May 2013"},
+	{LocaleIdID, time.Date(0, 5, 1, 0, 0, 0, 0, time.UTC), "January", "May"},
+	{LocaleIdID, time.Date(0, 5, 13, 0, 0, 0, 0, time.UTC), "2 January", "13 May"},
+
 	{LocaleDaDK, time.Date(2013, 9, 3, 0, 0, 0, 0, time.UTC), "Mon Jan 2 2006", "tir sep 3 2013"},
 	{LocaleDaDK, time.Date(2013, 9, 4, 0, 0, 0, 0, time.UTC), "Monday Jan 2 2006", "onsdag sep 4 2013"},
 	{LocaleDaDK, time.Date(2013, 10, 3, 0, 0, 0, 0, time.UTC), "Monday January 02 2006", "torsdag oktober 03 2013"},
