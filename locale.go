@@ -26,6 +26,7 @@ const (
 	LocaleRoRO = "ro_RO" // Romanian (Romania)
 	LocaleRuRU = "ru_RU" // Russian (Russia)
 	LocaleEsES = "es_ES" // Spanish (Spain)
+	LocaleEsMX = "es_MX" // Spanish (Mexico)
 	LocaleCaES = "ca_ES" // Catalan (Spain)
 	LocaleSvSE = "sv_SE" // Swedish (Sweden)
 	LocaleTrTR = "tr_TR" // Turkish (Turkey)
@@ -77,6 +78,7 @@ func ListLocales() []Locale {
 		LocaleRoRO,
 		LocaleRuRU,
 		LocaleEsES,
+		LocaleEsMX,
 		LocaleCaES,
 		LocaleSvSE,
 		LocaleTrTR,
