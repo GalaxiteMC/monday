@@ -11,7 +11,6 @@ type internalFormatFunc func(value, layout string) string
 var internalFormatFuncs = map[Locale]internalFormatFunc{
 	LocaleEnUS: createCommonFormatFunc(LocaleEnUS),
 	LocaleEnGB: createCommonFormatFunc(LocaleEnGB),
-	LocaleIdID: createCommonFormatFunc(LocaleEnGB),
 	LocaleDaDK: createCommonFormatFunc(LocaleDaDK),
 	LocaleNlBE: createCommonFormatFunc(LocaleNlBE),
 	LocaleNlNL: createCommonFormatFunc(LocaleNlNL),
@@ -65,7 +64,6 @@ type internalParseFunc func(layout, value string) string
 var internalParseFuncs = map[Locale]internalParseFunc{
 	LocaleEnUS: createCommonParseFunc(LocaleEnUS),
 	LocaleEnGB: createCommonParseFunc(LocaleEnGB),
-	LocaleIdID: createCommonParseFunc(LocaleIdID),
 	LocaleDaDK: createCommonParseFunc(LocaleDaDK),
 	LocaleNlBE: createCommonParseFunc(LocaleNlBE),
 	LocaleNlNL: createCommonParseFunc(LocaleNlNL),
